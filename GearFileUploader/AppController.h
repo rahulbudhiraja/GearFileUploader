@@ -18,6 +18,7 @@
     
 }
 
+
 - (IBAction)saySomething:(id)sender;
 
 // Interface Builder Action : function name :(identifier of parameter 1) variable
@@ -27,7 +28,7 @@
 
 - (IBAction)selectPath:(id)sender;
 
-
+- (void) examineContentsofChosenDirectory:(NSString *) aString;
 
 
 @end

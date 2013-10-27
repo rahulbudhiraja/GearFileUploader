@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA892D78181CA6900046BF86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892D77181CA6900046BF86 /* Cocoa.framework */; };
+		CA892D82181CA6900046BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892D80181CA6900046BF86 /* InfoPlist.strings */; };
+		CA892D84181CA6900046BF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892D83181CA6900046BF86 /* main.m */; };
+		CA892D88181CA6900046BF86 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA892D86181CA6900046BF86 /* Credits.rtf */; };
+		CA892D8B181CA6900046BF86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892D8A181CA6900046BF86 /* AppDelegate.m */; };
+		CA892D8E181CA6900046BF86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA892D8C181CA6900046BF86 /* MainMenu.xib */; };
+		CA892D90181CA6900046BF86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA892D8F181CA6900046BF86 /* Images.xcassets */; };
+		CA892D97181CA6900046BF86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892D96181CA6900046BF86 /* XCTest.framework */; };
+		CA892D98181CA6900046BF86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892D77181CA6900046BF86 /* Cocoa.framework */; };
+		CA892DA0181CA6900046BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892D9E181CA6900046BF86 /* InfoPlist.strings */; };
+		CA892DA2181CA6900046BF86 /* GearFileUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA892D99181CA6900046BF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA892D6C181CA6900046BF86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA892D73181CA6900046BF86;
+			remoteInfo = GearFileUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA892D74181CA6900046BF86 /* GearFileUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GearFileUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA892D77181CA6900046BF86 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CA892D7A181CA6900046BF86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CA892D7B181CA6900046BF86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CA892D7C181CA6900046BF86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA892D7F181CA6900046BF86 /* GearFileUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GearFileUploader-Info.plist"; sourceTree = "<group>"; };
+		CA892D81181CA6900046BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA892D83181CA6900046BF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA892D85181CA6900046BF86 /* GearFileUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GearFileUploader-Prefix.pch"; sourceTree = "<group>"; };
+		CA892D87181CA6900046BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CA892D89181CA6900046BF86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA892D8A181CA6900046BF86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA892D8D181CA6900046BF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CA892D8F181CA6900046BF86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA892D95181CA6900046BF86 /* GearFileUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GearFileUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA892D96181CA6900046BF86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CA892D9D181CA6900046BF86 /* GearFileUploaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GearFileUploaderTests-Info.plist"; sourceTree = "<group>"; };
+		CA892D9F181CA6900046BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GearFileUploaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA892D71181CA6900046BF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892D78181CA6900046BF86 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA892D92181CA6900046BF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892D98181CA6900046BF86 /* Cocoa.framework in Frameworks */,
+				CA892D97181CA6900046BF86 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA892D6B181CA6900046BF86 = {
+			isa = PBXGroup;
+			children = (
+				CA892D7D181CA6900046BF86 /* GearFileUploader */,
+				CA892D9B181CA6900046BF86 /* GearFileUploaderTests */,
+				CA892D76181CA6900046BF86 /* Frameworks */,
+				CA892D75181CA6900046BF86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA892D75181CA6900046BF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D74181CA6900046BF86 /* GearFileUploader.app */,
+				CA892D95181CA6900046BF86 /* GearFileUploaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA892D76181CA6900046BF86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D77181CA6900046BF86 /* Cocoa.framework */,
+				CA892D96181CA6900046BF86 /* XCTest.framework */,
+				CA892D79181CA6900046BF86 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA892D79181CA6900046BF86 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D7A181CA6900046BF86 /* AppKit.framework */,
+				CA892D7B181CA6900046BF86 /* CoreData.framework */,
+				CA892D7C181CA6900046BF86 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CA892D7D181CA6900046BF86 /* GearFileUploader */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D89181CA6900046BF86 /* AppDelegate.h */,
+				CA892D8A181CA6900046BF86 /* AppDelegate.m */,
+				CA892D8C181CA6900046BF86 /* MainMenu.xib */,
+				CA892D8F181CA6900046BF86 /* Images.xcassets */,
+				CA892D7E181CA6900046BF86 /* Supporting Files */,
+			);
+			path = GearFileUploader;
+			sourceTree = "<group>";
+		};
+		CA892D7E181CA6900046BF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D7F181CA6900046BF86 /* GearFileUploader-Info.plist */,
+				CA892D80181CA6900046BF86 /* InfoPlist.strings */,
+				CA892D83181CA6900046BF86 /* main.m */,
+				CA892D85181CA6900046BF86 /* GearFileUploader-Prefix.pch */,
+				CA892D86181CA6900046BF86 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA892D9B181CA6900046BF86 /* GearFileUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */,
+				CA892D9C181CA6900046BF86 /* Supporting Files */,
+			);
+			path = GearFileUploaderTests;
+			sourceTree = "<group>";
+		};
+		CA892D9C181CA6900046BF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA892D9D181CA6900046BF86 /* GearFileUploaderTests-Info.plist */,
+				CA892D9E181CA6900046BF86 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA892D73181CA6900046BF86 /* GearFileUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA892DA5181CA6900046BF86 /* Build configuration list for PBXNativeTarget "GearFileUploader" */;
+			buildPhases = (
+				CA892D70181CA6900046BF86 /* Sources */,
+				CA892D71181CA6900046BF86 /* Frameworks */,
+				CA892D72181CA6900046BF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GearFileUploader;
+			productName = GearFileUploader;
+			productReference = CA892D74181CA6900046BF86 /* GearFileUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA892D94181CA6900046BF86 /* GearFileUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA892DA8181CA6900046BF86 /* Build configuration list for PBXNativeTarget "GearFileUploaderTests" */;
+			buildPhases = (
+				CA892D91181CA6900046BF86 /* Sources */,
+				CA892D92181CA6900046BF86 /* Frameworks */,
+				CA892D93181CA6900046BF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA892D9A181CA6900046BF86 /* PBXTargetDependency */,
+			);
+			name = GearFileUploaderTests;
+			productName = GearFileUploaderTests;
+			productReference = CA892D95181CA6900046BF86 /* GearFileUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA892D6C181CA6900046BF86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Rahul;
+				TargetAttributes = {
+					CA892D94181CA6900046BF86 = {
+						TestTargetID = CA892D73181CA6900046BF86;
+					};
+				};
+			};
+			buildConfigurationList = CA892D6F181CA6900046BF86 /* Build configuration list for PBXProject "GearFileUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA892D6B181CA6900046BF86;
+			productRefGroup = CA892D75181CA6900046BF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA892D73181CA6900046BF86 /* GearFileUploader */,
+				CA892D94181CA6900046BF86 /* GearFileUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA892D72181CA6900046BF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892D82181CA6900046BF86 /* InfoPlist.strings in Resources */,
+				CA892D90181CA6900046BF86 /* Images.xcassets in Resources */,
+				CA892D88181CA6900046BF86 /* Credits.rtf in Resources */,
+				CA892D8E181CA6900046BF86 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA892D93181CA6900046BF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892DA0181CA6900046BF86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA892D70181CA6900046BF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892D8B181CA6900046BF86 /* AppDelegate.m in Sources */,
+				CA892D84181CA6900046BF86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA892D91181CA6900046BF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA892DA2181CA6900046BF86 /* GearFileUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA892D9A181CA6900046BF86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA892D73181CA6900046BF86 /* GearFileUploader */;
+			targetProxy = CA892D99181CA6900046BF86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA892D80181CA6900046BF86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892D81181CA6900046BF86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA892D86181CA6900046BF86 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892D87181CA6900046BF86 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CA892D8C181CA6900046BF86 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892D8D181CA6900046BF86 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CA892D9E181CA6900046BF86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA892D9F181CA6900046BF86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA892DA3181CA6900046BF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA892DA4181CA6900046BF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA892DA6181CA6900046BF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GearFileUploader/GearFileUploader-Prefix.pch";
+				INFOPLIST_FILE = "GearFileUploader/GearFileUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA892DA7181CA6900046BF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GearFileUploader/GearFileUploader-Prefix.pch";
+				INFOPLIST_FILE = "GearFileUploader/GearFileUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA892DA9181CA6900046BF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GearFileUploader.app/Contents/MacOS/GearFileUploader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GearFileUploader/GearFileUploader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GearFileUploaderTests/GearFileUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CA892DAA181CA6900046BF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GearFileUploader.app/Contents/MacOS/GearFileUploader";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GearFileUploader/GearFileUploader-Prefix.pch";
+				INFOPLIST_FILE = "GearFileUploaderTests/GearFileUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA892D6F181CA6900046BF86 /* Build configuration list for PBXProject "GearFileUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA892DA3181CA6900046BF86 /* Debug */,
+				CA892DA4181CA6900046BF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA892DA5181CA6900046BF86 /* Build configuration list for PBXNativeTarget "GearFileUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA892DA6181CA6900046BF86 /* Debug */,
+				CA892DA7181CA6900046BF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA892DA8181CA6900046BF86 /* Build configuration list for PBXNativeTarget "GearFileUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA892DA9181CA6900046BF86 /* Debug */,
+				CA892DAA181CA6900046BF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA892D6C181CA6900046BF86 /* Project object */;
+}

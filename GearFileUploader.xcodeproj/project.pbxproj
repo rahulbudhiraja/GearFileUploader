@@ -19,6 +19,7 @@
 		CA892DA0181CA6900046BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892D9E181CA6900046BF86 /* InfoPlist.strings */; };
 		CA892DA2181CA6900046BF86 /* GearFileUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */; };
 		CA892DAD181CB4990046BF86 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892DAC181CB4990046BF86 /* AppController.m */; };
+		CA892DAF181CC5100046BF86 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CA892DAE181CC5100046BF86 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GearFileUploaderTests.m; sourceTree = "<group>"; };
 		CA892DAB181CB4990046BF86 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		CA892DAC181CB4990046BF86 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		CA892DAE181CC5100046BF86 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CA892D6B181CA6900046BF86 = {
 			isa = PBXGroup;
 			children = (
+				CA892DAE181CC5100046BF86 /* .gitignore */,
 				CA892D7D181CA6900046BF86 /* GearFileUploader */,
 				CA892D9B181CA6900046BF86 /* GearFileUploaderTests */,
 				CA892D76181CA6900046BF86 /* Frameworks */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA892DAF181CC5100046BF86 /* .gitignore in Resources */,
 				CA892D82181CA6900046BF86 /* InfoPlist.strings in Resources */,
 				CA892D90181CA6900046BF86 /* Images.xcassets in Resources */,
 				CA892D88181CA6900046BF86 /* Credits.rtf in Resources */,
@@ -470,6 +474,7 @@
 				CA892DA7181CA6900046BF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA892DA8181CA6900046BF86 /* Build configuration list for PBXNativeTarget "GearFileUploaderTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				CA892DAA181CA6900046BF86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,7 @@
 		CA892D98181CA6900046BF86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA892D77181CA6900046BF86 /* Cocoa.framework */; };
 		CA892DA0181CA6900046BF86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA892D9E181CA6900046BF86 /* InfoPlist.strings */; };
 		CA892DA2181CA6900046BF86 /* GearFileUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */; };
+		CA892DAD181CB4990046BF86 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA892DAC181CB4990046BF86 /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		CA892D9D181CA6900046BF86 /* GearFileUploaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GearFileUploaderTests-Info.plist"; sourceTree = "<group>"; };
 		CA892D9F181CA6900046BF86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA892DA1181CA6900046BF86 /* GearFileUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GearFileUploaderTests.m; sourceTree = "<group>"; };
+		CA892DAB181CB4990046BF86 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		CA892DAC181CB4990046BF86 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		CA892D7D181CA6900046BF86 /* GearFileUploader */ = {
 			isa = PBXGroup;
 			children = (
+				CA892DAB181CB4990046BF86 /* AppController.h */,
+				CA892DAC181CB4990046BF86 /* AppController.m */,
 				CA892D89181CA6900046BF86 /* AppDelegate.h */,
 				CA892D8A181CA6900046BF86 /* AppDelegate.m */,
 				CA892D8C181CA6900046BF86 /* MainMenu.xib */,
@@ -253,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA892D8B181CA6900046BF86 /* AppDelegate.m in Sources */,
+				CA892DAD181CB4990046BF86 /* AppController.m in Sources */,
 				CA892D84181CA6900046BF86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

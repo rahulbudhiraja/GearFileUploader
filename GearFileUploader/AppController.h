@@ -14,7 +14,13 @@
     @private
     
     IBOutlet NSTextField *label;
-
+    
+    NSInteger *numFiles;
+    NSString *pathtoAdb;
+    NSString *actualPathtoAdb;
+    
+    NSArray *filesToPush;
+    NSArray *contents;
     
 }
 
@@ -29,6 +35,9 @@
 - (IBAction)selectPath:(id)sender;
 
 - (void) examineContentsofChosenDirectory:(NSString *) aString;
+
+- (void) pushFiles;
+
 
 
 @end
